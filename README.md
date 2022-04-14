@@ -1,8 +1,15 @@
+<h1>Testes unitários em Java utilizando JUnit</h1>
+<p>Este curso tem como objetivo habilitar o(a) aluno(a) a testar soluções desenvolvidas na linguagem Java, tornando-o apto a apoiar a implantação e utilização da Plataforma Digital do Poder Judiciário – PDPJ-Br no seu Tribunal.</p>
+
+<p>Ao final do curso o participante deverá demonstrar ampla capacidade no uso dos conceitos de testes em Java conhecendo, entre outros: Criação de testes unitários em Java utilizando JUnit.</p>
+	
+<h2>Configurando Ambiente de desenvolvimento Java<h2>
+
 <h2>🐧 LINUX - Ubuntu</h2>
 
 <h3>Instalação OpenJDK</h3>
 <ol>
-	<li>Abra o terminal e verifique o Java está instalado:</li>
+    <li>Abra o terminal e verifique o Java está instalado:</li>
     <code>java --version</code>
     <li>Para instalar o <em>openJDK-11</em>, digite no terminal:</li>
     <code>sudo apt-get install openjdk-11-jdk</code>
