@@ -3,11 +3,11 @@
 
 <p>Ao final do curso o participante deverá demonstrar ampla capacidade no uso dos conceitos de testes em Java conhecendo, entre outros: Criação de testes unitários em Java utilizando JUnit.</p>
 	
-<h2>Configurando Ambiente de desenvolvimento Java
-<br>
-🐧 LINUX - Ubuntu</h2>
+<h2>Configurando Ambiente de desenvolvimento Java<h2>
 
-<h3>Instalação OpenJDK</h3>
+<h3>🐧 LINUX - Ubuntu</h3>
+
+<h4>Instalação OpenJDK</h4>
 <ol>
     <li>Abra o terminal e verifique o Java está instalado:</li>
     <code>java --version</code>
@@ -39,7 +39,7 @@
 </ol>
 <p align="right"><em>Créditos: <a href="https://www.youtube.com/watch?v=jARiy3DZdwg">DevSuperior</a></em></p>
 
-<h3>Instalação Eclipse</h3>
+<h4>Instalação Eclipse</h4>
 <ol>
     <li>Entre no site oficial do Eclipse Foundation e faça o <strong><a href="https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-06/R/eclipse-inst-jre-linux64.tar.gz">DOWNLOAD</a></strong></li>
     <li>Descompacte a pasta</li>
@@ -54,7 +54,7 @@
     <li>Intalação concluída!</li>
 </ol>
 
-<h3>Instalação Visual Studio Code</h3>
+<h4>Instalação Visual Studio Code</h4>
 <ol>
     <li>Entre no site oficial do Visual Studio Code</li>
     <li>Faça o <strong><a href="https://code.visualstudio.com/">DOWNLOAD</a></strong> do arquivo com a extensão .deb</li>
@@ -72,7 +72,7 @@
     </ul>
 </ol>
 
-<h3>Instalação GIT</h3>
+<h4>Instalação GIT</h4>
 <ol>
 	<li>Abra o terminal verifique se o GIT está instalado</li>
     <code>git --version</code>
@@ -92,7 +92,7 @@
     <li>Instalação concluída!</li>
 </ol>
 
-<h3>Instalação Apache Maven</h3>
+<h4>Instalação Apache Maven</h4>
 <p>Pensando em facilitar a instalação, iremos utilizar uma ferramenta de gerenciamento de versões chamada <a href="https://sdkman.io/">SDKMAN!</a>
 </p>
 <ol>
@@ -139,7 +139,7 @@
 </ol>
 <p align="right"><em>Créditos: <a href="https://www.youtube.com/watch?v=laC0fiI-IOM">DevSuperior</a></em></p>
 
-<h3>Instalação Eclipse</h3>
+<h4>Instalação Eclipse</h4>
 <ol>
     <li>Entre no site oficial do Eclipse Foundation e faça o <strong><a href="https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2021-06/R/eclipse-inst-jre-linux64.tar.gz">DOWNLOAD</a></strong></li>
     <li>Execute o arquivo</li>
@@ -153,7 +153,7 @@
     <li>Instalação concluída!</li>
 </ol>
 
-<h3>Instalação Visual Studio Code</h3>
+<h4>Instalação Visual Studio Code</h4>
 <ol>
     <li>Entre no site oficial do Visual Studio Code e faça o <strong><a href="https://code.visualstudio.com/">DOWNLOAD</a></strong> "Download for windows"</li>
     <li>Espere o download concluir e execute o arquivo</li>
@@ -171,7 +171,7 @@
     </ul>
 </ol>
 
-<h3>Instalação Apache Maven</h3>
+<h4>Instalação Apache Maven</h4>
 <ol>
     <li>Entre no site ofical da Apache Maven e faça o <strong><a href="https://maven.apache.org/download.cgi">DOWNLOAD</a></strong> "Binary zip archive"</li>
     <li>Vá no drive -> C://Arquivo de Programas</li>
@@ -197,7 +197,7 @@
 </ol>
 <p align="right"><em>Créditos: <a href="https://www.treinaweb.com.br/blog/introducao-ao-maven-aprenda-como-criar-e-gerenciar-projetos-java">TreinaWeb</a></em></p>
 
-<h3>Instalação GIT</h3>
+<h4>Instalação GIT</h4>
 <ol>
     <li>Entre no site oficial do <a href ="https://git-scm.com/downloads"><strong>GIT</strong></a></li>
     <li>Escolha a opção Windows e o instalador será baixado automáticamente</li>
@@ -220,7 +220,7 @@
 </ol>
 <hr>
 
-<h4><strong>Atalhos mais utilizados - ECLIPSE IDE</strong></h4>
+<h3><strong>Atalhos mais utilizados - ECLIPSE IDE</strong></h3>
 <table>
 	<tr>
 		<th>Atalho</th>
@@ -279,7 +279,7 @@
 		<td>Cria um switch/case automaticamente</td>
 	</tr>
 </table>
-<h4><strong>Atalhos mais utilizados - GIT</strong></h4>
+<h3><strong>Atalhos mais utilizados - GIT</strong></h3>
 <table>
 	<tr>
 		<th>Atalho</th>
