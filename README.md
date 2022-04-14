@@ -166,6 +166,7 @@
         <li>Abrir o menu de extensões: (Ctrl + Shift + X)</li>
         <li>Colar os comandos abaixo e fazer as instalações:</li>
         <code>vscode:extension/vscjava.vscode-java-pack</code>
+	<br>
         <code>vscode:extension/pivotal.vscode-boot-dev-pack</code>
         <li>Configuração concluída!</li>
     </ul>
