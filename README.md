@@ -3,9 +3,9 @@
 
 <p>Ao final do curso o participante deverá demonstrar ampla capacidade no uso dos conceitos de testes em Java conhecendo, entre outros: Criação de testes unitários em Java utilizando JUnit.</p>
 	
-<h2>Configurando Ambiente de desenvolvimento Java<h2>
-
-<h2>🐧 LINUX - Ubuntu</h2>
+<h2>Configurando Ambiente de desenvolvimento Java
+<br>
+🐧 LINUX - Ubuntu</h2>
 
 <h3>Instalação OpenJDK</h3>
 <ol>
@@ -287,51 +287,51 @@
 	<tr>
 	<tr>
 		<td>git init</td>
-		<td>Cria uma nova classe Java</td>
+		<td>Cria um novo repositório GIT</td>
 	</tr>
 	<tr>
 		<td>git status</td>
-		<td>Deleta linha ou bloco</td>
+		<td>Verifica o estado dos arquivos/diretórios</td>
 	</tr>
 	<tr>
 		<td>git add</td>
-		<td>Identa o código selecionado</td>
+		<td>Adicionar arquivo/diretório (staged area)</td>
 	<tr>
 	<tr>
 		<td>git branch</td>
-		<td>Verifica o nome de uma classe ou objeto</td>
+		<td>Lista as branches</td>
 	</tr>
 	<tr>
 		<td>git checkout -b</td>
-		<td>Quick Fix, (Rename, Extract, Convert, try-catch...)</td>
+		<td>Cria uma nova branch e troca para a mesma a partir da branch atual</td>
 	</tr>
 	<tr>
 		<td>git commit -m</td>
-		<td>Identa todo o código</td>
+		<td>Comitar informando mensagem</td>
 	</tr>
 	<tr>
 		<td>git pull</td>
-		<td>Salvamento</td>
+		<td>Atualizar os arquivos no branch atual</td>
 	</tr>
 	<tr>
-		<td>git push</td>
-		<td>Quick Search (Abre um menu de ações)</td>
+		<td>git push -u origin main</td>
+		<td>Envia arquivos/diretórios para o repositório remoto</td>
 	</tr>
 	<tr>
 		<td>git fecth</td>
-		<td>Source (Gera com template: Getter and Setter, toString(), Constructor...)</td>
+		<td>Busca as alterações, mas não aplica-las no branch atual</td>
 	</tr>
 	<tr>
 		<td>git clone</td>
-		<td>Refatora a variável em todos os lugares</td>
+		<td>Clona um repositório remoto já existente</td>
 	</tr>
 </table>
 
 <h3>Fontes:</h3>
 <ul>
-	<li>https://pt.wikipedia.org/wiki/Editor_de_texto</li>
-	<li>https://code.visualstudio.com/docs/languages/java</li>
-	<li>https://www.devmedia.com.br/principais-atalhos-do-eclipse/25614</li>
+  <li>https://pt.wikipedia.org/wiki/Editor_de_texto</li>
+  <li>https://code.visualstudio.com/docs/languages/java</li>
+  <li>https://www.devmedia.com.br/principais-atalhos-do-eclipse/25614</li>
   <li>https://www.dio.me/articles/tutorial-completo-do-maven-para-iniciantes</li>
-  <li>https://comandosgit.github.io/</li>
+  <li>https://gist.github.com/leocomelli/2545add34e4fec21ec16</li>
 <ul>
