@@ -2,7 +2,7 @@
 <p>Este curso tem como objetivo habilitar o(a) aluno(a) a testar soluções desenvolvidas na linguagem Java, tornando-o apto a apoiar a implantação e utilização da Plataforma Digital do Poder Judiciário – PDPJ-Br no seu Tribunal.</p>
 
 <p>Ao final do curso o participante deverá demonstrar ampla capacidade no uso dos conceitos de testes em Java conhecendo, entre outros: Criação de testes unitários em Java utilizando JUnit.</p>
-	
+<hr>
 <h2>Configurando Ambiente de desenvolvimento Java<h2>
 
 <h3>🐧 LINUX - Ubuntu</h3>
