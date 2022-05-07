@@ -378,4 +378,5 @@
   <li>https://www.devmedia.com.br/principais-atalhos-do-eclipse/25614</li>
   <li>https://www.dio.me/articles/tutorial-completo-do-maven-para-iniciantes</li>
   <li>https://gist.github.com/leocomelli/2545add34e4fec21ec16</li>
+  <li>https://www.geeksforgeeks.org/maven-lifecycle-and-basic-maven-commands/</li>
 <ul>
