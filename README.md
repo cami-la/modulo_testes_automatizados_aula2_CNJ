@@ -280,7 +280,7 @@
 		<td>Cria um switch/case automaticamente</td>
 	</tr>
 </table>
-<h3><strong>Atalhos mais utilizados - GIT</strong></h3>
+<h3><strong>Comandos mais utilizados - GIT</strong></h3>
 <table>
 	<tr>
 		<th>Atalho</th>
@@ -325,6 +325,49 @@
 	<tr>
 		<td>git clone</td>
 		<td>Clona um repositório remoto já existente</td>
+	</tr>
+</table>
+<h3><strong>Comandos Básicos - Maven</strong></h3>
+<table>
+	<tr>
+		<th>Comando</th>	
+		<th>Descriçao</th>
+	</tr>
+	<tr>
+		<td>mvn --version</td>
+		<td>Versão atual do Maven que está instalada</td>
+	</tr>
+	<tr>
+		<td>mvn archetype: generate -DgroupId = com.mycompany.app -DartifactId = my-app -DarchetypeArtifactId = maven-archetype-quickstart -DarchetypeVersion = 1.4 -DinteractiveMode = true</td>
+		<td>Criar um projeto usando o archetype quick start</td>
+	</tr>
+	<tr>
+		<td>mvn clean</td>
+		<td>Limpa o projeto e remove todos os arquivos gerados pela compilação anterior</td>
+	</tr>
+	<tr>
+		<td>mvn compile</td>
+		<td>Compila o código-fonte do projeto</td>
+	</tr>
+	<tr>
+		<td>mvn test-compile</td>
+		<td>Compila o código-fonte de teste</td>
+	</tr>
+	<tr>
+		<td>mvn test</td>
+		<td>Executa testes para o projeto</td>
+	</tr>
+		<tr>
+		<td>mvn package</td>
+		<td>Cria arquivo JAR ou WAR para o projeto para convertê-lo em um formato distribuível</td>
+	</tr>
+	<tr>
+		<td>mvn clean intall</td>
+		<td>Implanta o arquivo JAR/WAR empacotado no repositório local</td>
+	</tr>
+	<tr>
+		<td>mvn deploy</td>
+		<td>Copia o arquivo JAR/WAR empacotado para o repositório remoto após compilar, executar testes e construir o projeto</td>
 	</tr>
 </table>
 
