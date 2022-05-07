@@ -285,7 +285,7 @@
 	<tr>
 		<th>Atalho</th>
 		<th>Descrição</th>
-	<tr>
+	</tr>
 	<tr>
 		<td>git init</td>
 		<td>Cria um novo repositório GIT</td>
@@ -297,7 +297,7 @@
 	<tr>
 		<td>git add</td>
 		<td>Adicionar arquivo/diretório (staged area)</td>
-	<tr>
+	</tr>
 	<tr>
 		<td>git branch</td>
 		<td>Lista as branches</td>
