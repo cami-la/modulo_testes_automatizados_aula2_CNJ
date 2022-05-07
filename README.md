@@ -238,7 +238,7 @@
 	<tr>
 		<td>Ctrl + I</td>
 		<td>Identa o código selecionado</td>
-	<tr>
+	</tr>
 	<tr>
 		<td>Ctrl + Backspace</td>
 		<td>Verifica o nome de uma classe ou objeto</td>
@@ -362,7 +362,7 @@
 		<td>Cria arquivo JAR ou WAR para o projeto para convertê-lo em um formato distribuível</td>
 	</tr>
 	<tr>
-		<td>mvn clean intall</td>
+		<td>mvn clean install</td>
 		<td>Implanta o arquivo JAR/WAR empacotado no repositório local</td>
 	</tr>
 	<tr>
