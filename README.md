@@ -72,6 +72,23 @@
     </ul>
 </ol>
 
+<h4>Instalação Apache Maven</h4>
+<p>Pensando em facilitar a instalação, iremos utilizar uma ferramenta de gerenciamento de versões chamada <a href="https://sdkman.io/">SDKMAN!</a>
+</p>
+<ol>
+    <li>Para Instalar o SDMAN!, execute no terminal:</li>
+    <code>curl -s "https://get.sdkman.io" | bash</code>
+    <li>Em seguida:</li>
+    <code>source "$HOME/.sdkman/bin/sdkman-init.sh"</code>
+    <li>Verifique se o SDKMAN! foi instalado:</li>
+    <code>sdk --version</code>
+    <li>Para instalar o <a href="https://sdkman.io/sdks">Apache Maven</a>:</li>
+    <code>sdk install maven</code>
+    <li>Verifique se o Apache Maven está instalado</li>
+    <code>mvn --version</code>
+    <li>Instalação concluída!</li>
+</ol>
+
 <h4>Instalação GIT</h4>
 <ol>
 	<li>Abra o terminal verifique se o GIT está instalado</li>
@@ -89,23 +106,6 @@
         <li>Verifique as configurações:</li>
 		<code>git config --list</code>
     </ul>
-    <li>Instalação concluída!</li>
-</ol>
-
-<h4>Instalação Apache Maven</h4>
-<p>Pensando em facilitar a instalação, iremos utilizar uma ferramenta de gerenciamento de versões chamada <a href="https://sdkman.io/">SDKMAN!</a>
-</p>
-<ol>
-    <li>Para Instalar o SDMAN!, execute no terminal:</li>
-    <code>curl -s "https://get.sdkman.io" | bash</code>
-    <li>Em seguida:</li>
-    <code>source "$HOME/.sdkman/bin/sdkman-init.sh"</code>
-    <li>Verifique se o SDKMAN! foi instalado:</li>
-    <code>sdk --version</code>
-    <li>Para instalar o <a href="https://sdkman.io/sdks">Apache Maven</a>:</li>
-    <code>sdk install maven</code>
-    <li>Verifique se o Apache Maven está instalado</li>
-    <code>mvn --version</code>
     <li>Instalação concluída!</li>
 </ol>
 <hr>
@@ -280,6 +280,49 @@
 		<td>Cria um switch/case automaticamente</td>
 	</tr>
 </table>
+<h3><strong>Comandos Básicos - Maven</strong></h3>
+<table>
+	<tr>
+		<th>Comando</th>	
+		<th>Descriçao</th>
+	</tr>
+	<tr>
+		<td>mvn --version</td>
+		<td>Versão atual do Maven que está instalada</td>
+	</tr>
+	<tr>
+		<td>mvn archetype: generate -DgroupId = com.mycompany.app -DartifactId = my-app -DarchetypeArtifactId = maven-archetype-quickstart -DarchetypeVersion = 1.4 -DinteractiveMode = true</td>
+		<td>Criar um projeto usando o archetype quick start</td>
+	</tr>
+	<tr>
+		<td>mvn clean</td>
+		<td>Limpa o projeto e remove todos os arquivos gerados pela compilação anterior</td>
+	</tr>
+	<tr>
+		<td>mvn compile</td>
+		<td>Compila o código-fonte do projeto</td>
+	</tr>
+	<tr>
+		<td>mvn test-compile</td>
+		<td>Compila o código-fonte de teste</td>
+	</tr>
+	<tr>
+		<td>mvn test</td>
+		<td>Executa testes para o projeto</td>
+	</tr>
+		<tr>
+		<td>mvn package</td>
+		<td>Cria arquivo JAR ou WAR para o projeto para convertê-lo em um formato distribuível</td>
+	</tr>
+	<tr>
+		<td>mvn clean install</td>
+		<td>Implanta o arquivo JAR/WAR empacotado no repositório local</td>
+	</tr>
+	<tr>
+		<td>mvn deploy</td>
+		<td>Copia o arquivo JAR/WAR empacotado para o repositório remoto após compilar, executar testes e construir o projeto</td>
+	</tr>
+</table>
 <h3><strong>Comandos mais utilizados - GIT</strong></h3>
 <table>
 	<tr>
@@ -327,50 +370,6 @@
 		<td>Clona um repositório remoto já existente</td>
 	</tr>
 </table>
-<h3><strong>Comandos Básicos - Maven</strong></h3>
-<table>
-	<tr>
-		<th>Comando</th>	
-		<th>Descriçao</th>
-	</tr>
-	<tr>
-		<td>mvn --version</td>
-		<td>Versão atual do Maven que está instalada</td>
-	</tr>
-	<tr>
-		<td>mvn archetype: generate -DgroupId = com.mycompany.app -DartifactId = my-app -DarchetypeArtifactId = maven-archetype-quickstart -DarchetypeVersion = 1.4 -DinteractiveMode = true</td>
-		<td>Criar um projeto usando o archetype quick start</td>
-	</tr>
-	<tr>
-		<td>mvn clean</td>
-		<td>Limpa o projeto e remove todos os arquivos gerados pela compilação anterior</td>
-	</tr>
-	<tr>
-		<td>mvn compile</td>
-		<td>Compila o código-fonte do projeto</td>
-	</tr>
-	<tr>
-		<td>mvn test-compile</td>
-		<td>Compila o código-fonte de teste</td>
-	</tr>
-	<tr>
-		<td>mvn test</td>
-		<td>Executa testes para o projeto</td>
-	</tr>
-		<tr>
-		<td>mvn package</td>
-		<td>Cria arquivo JAR ou WAR para o projeto para convertê-lo em um formato distribuível</td>
-	</tr>
-	<tr>
-		<td>mvn clean install</td>
-		<td>Implanta o arquivo JAR/WAR empacotado no repositório local</td>
-	</tr>
-	<tr>
-		<td>mvn deploy</td>
-		<td>Copia o arquivo JAR/WAR empacotado para o repositório remoto após compilar, executar testes e construir o projeto</td>
-	</tr>
-</table>
-
 <h3>Fontes:</h3>
 <ul>
   <li>https://pt.wikipedia.org/wiki/Editor_de_texto</li>
@@ -379,4 +378,6 @@
   <li>https://www.dio.me/articles/tutorial-completo-do-maven-para-iniciantes</li>
   <li>https://gist.github.com/leocomelli/2545add34e4fec21ec16</li>
   <li>https://www.geeksforgeeks.org/maven-lifecycle-and-basic-maven-commands/</li>
+  <li>https://murillocg.github.io/2017-05-27-introdu-o-ao-apache-maven/</li>
+  <li>https://giuliana-bezerra.medium.com/gerenciando-dependencias-com-o-mavem-em-projetos-java-6703fce91fb6</li>
 <ul>
